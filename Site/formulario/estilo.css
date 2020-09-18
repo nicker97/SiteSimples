@@ -1,0 +1,111 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	font-family: serif, sans-serif;
+}
+
+.menu ul {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	box-shadow: 10px 10px 5px 0px rgba(239, 239, 239, 0.75)
+}
+
+.menu li {
+	display: inline-block;
+	font-size:20px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: black;
+	width: 100px;
+	display: block;
+	padding: 15px;
+}
+
+#pagina-selecionada{
+	color: rgb(73, 186, 155);
+	font-size: 25px;
+}
+
+li a:hover {
+	color: rgb(73, 186, 155); 
+	border-color: #000;
+}
+
+h1{
+	text-align: center;
+	margin-top: 50px;
+}
+
+#contato{
+	padding: 7px 20px; 
+	text-decoration: none;
+	/* cantos arredondados */
+	border-radius:15px;
+	background: rgb(73, 186, 155); 
+	color: rgb(255, 255, 255); 
+	border-color: #000;
+}
+
+#contato:hover {
+	padding: 7px 20px; 
+	text-decoration: none;
+	/* cantos arredondados */
+	border-radius:15px;
+	background: rgb(255, 255, 255);
+	color: rgb(73, 186, 155); 
+	border-color: #000;
+}
+
+form{
+	font-size: 18px;
+	max-height: 500px;
+	margin: 0 auto;
+	padding: 0 10px 10px 10px;
+	text-align: center;
+	margin-top: 100px;
+}
+
+input, textarea{
+	width: 1000px;
+	padding: 10px;
+	border:1px;
+	box-shadow: 5px 5px 5px 0px rgba(239, 239, 239, 0.75);
+	margin-top: 40px;
+}
+
+.enviar input{
+	background: rgb(73, 186, 155);
+	height: 50px;
+	width: 150px;
+	font-family: serif;
+	font-size: 20px;
+	border-radius: 5px;
+	text-align: top;
+	border: 0;
+	color: #fff;
+	cursor: pointer;
+}
+
+.enviar input:hover{
+	background: rgb(100, 200, 170);
+}
+
+textarea{
+	width: 1000px;
+	height: 120px;
+	font-family: serif;
+	font-size: 18px;
+}
+
+.nome input, .sobrenome input{
+	width: 500px;
+}
+
+.row div{
+	display: inline;
+}

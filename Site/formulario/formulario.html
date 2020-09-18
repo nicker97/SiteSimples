@@ -1,0 +1,54 @@
+<doctype html>
+<html lang="pt-br">
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Formulário de contato</title>
+		<link href="estilo.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="menu">
+			<ul>
+			    <li><a href="..\principal.html"> Principal </a></li>
+			    <li><a href="#"> Serviços </a></li>
+			    <li><a href="..\sobre\sobremim.html" >Sobre</a></li>
+			    <li><a href="#" id="pagina-selecionada">Eu.</a></li>
+			    <li><a href="#">Portifólio</a></li>
+			    <li><a href="#">Cliente</a></li>
+			    <li><a href="formulario.html" id="pagina-selecionada">Contato</a></li>
+			</ul>
+		</div>
+		
+		<form name="formtest" action="" method="post">
+			<h1>Fale comigo</h1>
+			
+			<div class="row">
+				<div class="nome">
+					<input type="text" name="nome" placeholder="Nome" required="required">
+				</div>
+
+				<div class="sobrenome">
+					<input type="text" name="sobrenome" placeholder="Sobrenome" required="required">
+				</div>
+			</div>
+
+			<p class="email">
+				<input type="email" name="email" placeholder="Seu Email" required="required">
+			</p>
+
+			<p class="assunto">
+				<input type="text" name="assunto" placeholder="Assunto" required="required">
+			</p>
+
+			<p class="mensagem">
+				<textarea name="mensagem" placeholder="Escreva sua mensagem aqui..." required="required"></textarea>
+			</p>
+
+			<p class="enviar">
+				<input type="submit" name="enviar" value="Enviar">
+			</p>
+
+		</form>
+	</body>
+</html>
